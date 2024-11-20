@@ -34,8 +34,11 @@ Here's how you can use `tca.py`:
 | `.` | Create test cases for all problems |
 | `<name>` | Create test cases for a specific problem |
 
-<details><summary><strong>How About domjudge.py file?</strong></summary>
-This section has not been designed yet :(
+<details><summary><strong>How About domjudge.py file?</strong></summary><br>
+
+This is probably the simplest executable you'll ever see. Just copy the files in the format `samples-x.zip`, where `x` is the **name of problem**, into the `tc` folder, and then run the `domjudge.py` file.
+
+This program will extract the **zip files**, give the folder a shortened name, and then delete the zip file.
 </details>
 
 ## Contribution
