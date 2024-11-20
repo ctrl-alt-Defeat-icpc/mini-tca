@@ -1,0 +1,52 @@
+# Compiled C++ output
+*.out
+*.exe
+*.o
+*.obj
+*.gch
+
+# Python cache files and virtual environments
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+env/
+ENV/
+venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VSCode settings and logs
+.vscode/
+*.code-workspace
+*.log
+
+# Files with specific extensions
+*.in
+*.ans
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Extra folders (e.g., test or build folders)
+tc/*
+!tc/domjudge.py
+
+build/
+dist/
+.temp/
+.cache/
+
+# Git-related
+*.orig
+*.rej
+
+# IDE-specific
+.idea/
+*.iml
+*.swp
+*.swo
